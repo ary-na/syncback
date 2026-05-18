@@ -2,10 +2,10 @@
 
 > Automatically merge your branch into a target, push, and switch back — all in one command.
 
-[![npm version](https://img.shields.io/npm/v/syncback?color=black&style=flat-square)](https://www.npmjs.com/package/syncback)
-[![npm downloads](https://img.shields.io/npm/dm/syncback?color=black&style=flat-square)](https://www.npmjs.com/package/syncback)
-[![license](https://img.shields.io/npm/l/syncback?color=black&style=flat-square)](./LICENSE)
-[![node](https://img.shields.io/node/v/syncback?color=black&style=flat-square)](https://nodejs.org)
+[![npm version](https://img.shields.io/npm/v/@ariian/syncback?color=black&style=flat-square)](https://www.npmjs.com/package/@ariian/syncback)
+[![npm downloads](https://img.shields.io/npm/dm/@ariian/syncback?color=black&style=flat-square)](https://www.npmjs.com/package/@ariian/syncback)
+[![license](https://img.shields.io/npm/l/@ariian/syncback?color=black&style=flat-square)](./LICENSE)
+[![node](https://img.shields.io/node/v/@ariian/syncback?color=black&style=flat-square)](https://nodejs.org)
 
 ---
 
