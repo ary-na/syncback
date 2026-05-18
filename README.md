@@ -38,7 +38,7 @@ syncback handles the full round trip: **switch → pull → merge → push → s
 ## Install
 
 ```bash
-npm install -g syncback
+npm install -g @ariian/syncback
 ```
 
 ---
