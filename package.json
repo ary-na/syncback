@@ -1,5 +1,5 @@
 {
-  "name": "syncback",
+  "name": "@ariian/syncback",
   "version": "1.0.0",
   "description": "Automatically merge your branch into a target, push, and switch back",
   "main": "dist/cli.js",
