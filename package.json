@@ -1,19 +1,31 @@
 {
   "name": "syncback",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Automatically merge your branch into a target, push, and switch back",
+  "main": "dist/cli.js",
   "bin": {
     "syncback": "./bin/index.js"
   },
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node src/index.ts",
-    "start": "node dist/index.js"
+    "dev": "ts-node src/cli.ts",
+    "start": "node dist/cli.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "git",
+    "merge",
+    "branch",
+    "automation",
+    "cli",
+    "workflow"
+  ],
+  "author": "arii",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ary-na/syncback.git"
+  },
+  "homepage": "https://github.com/ary-na/syncback#readme",
   "type": "commonjs",
   "dependencies": {
     "chalk": "^4.1.2",
