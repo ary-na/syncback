@@ -4,7 +4,7 @@
   "description": "Automatically merge your branch into a target, push, and switch back",
   "main": "dist/cli.js",
   "bin": {
-    "syncback": "./bin/index.js"
+    "syncback": "bin/index.js"
   },
   "files": [
     "dist/",
@@ -30,7 +30,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ary-na/syncback.git"
+    "url": "git+https://github.com/ary-na/syncback.git"
   },
   "homepage": "https://github.com/ary-na/syncback#readme",
   "dependencies": {
