@@ -145,4 +145,4 @@ Output:
 
 ## License
 
-MIT © [arii](https://github.com/ary-na)
+MIT © [arii.dev](https://arii.dev)
