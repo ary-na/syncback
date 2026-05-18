@@ -4,3 +4,4 @@ tsconfig.json
 *.log
 LICENSE
 .gitignore
+.github/
