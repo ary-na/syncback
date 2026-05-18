@@ -16,7 +16,7 @@ program
   .description(
     "Merge your branch into a target, push, and switch back automatically",
   )
-  .version(pkg.version)
+  .version(pkg.version, "-v, --version", "output the version number")
   .option("-f, --from <branch>", "source branch (defaults to current branch)")
   .option("-i, --into <branches...>", "target branch(es) to merge into")
   .option("-r, --remote <remote>", "git remote (default: origin)", "origin")
