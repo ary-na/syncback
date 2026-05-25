@@ -147,4 +147,4 @@ Output:
 
 ## License
 
-MIT © [arii.dev](https://arii.dev)
+MIT © Arian Najafi Yamchelo — [arii.dev](https://arii.dev)
