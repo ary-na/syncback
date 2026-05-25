@@ -90,10 +90,12 @@ Given you're on `feature/my-branch` and run `syncback --into main`:
 3. git pull origin main     → get latest
 4. git merge feature/my-branch
 5. git push origin main
-6. git checkout feature/my-branch  ← back home 🏠
+6. git checkout feature/my-branch  ← back home
 ```
 
-If you pass multiple targets with `--into main --into staging`, it repeats the round trip for each one and always returns you home at the end.
+If you pass multiple targets with `--into main --into staging`, it repeats the round trip for each one, showing a `[1/2]` / `[2/2]` counter, and always returns you home at the end.
+
+Each git operation shows a live spinner so you can see exactly what's running and whether it succeeded or failed.
 
 ---
 
@@ -104,9 +106,9 @@ If a merge conflict is detected, syncback will:
 1. Abort the merge immediately
 2. Return you to your original branch
 3. Leave your working tree clean
-4. Report exactly which target failed
+4. Report exactly which target failed in the summary
 
-You'll never be left stranded on the wrong branch.
+You'll never be left stranded on the wrong branch. When syncing multiple targets, a failure on one target does not stop the rest — syncback continues and reports all results at the end.
 
 ---
 
@@ -128,17 +130,17 @@ Output:
 ```
   DRY RUN — no changes will be made
 
-  git checkout main
-  git pull origin main
-  git merge feature/my-branch
-  git push origin main
-  git checkout feature/my-branch
+  $ git checkout main
+  $ git pull origin main
+  $ git merge feature/my-branch
+  $ git push origin main
+  $ git checkout feature/my-branch
 
-  git checkout staging
-  git pull origin staging
-  git merge feature/my-branch
-  git push origin staging
-  git checkout feature/my-branch
+  $ git checkout staging
+  $ git pull origin staging
+  $ git merge feature/my-branch
+  $ git push origin staging
+  $ git checkout feature/my-branch
 ```
 
 ---
